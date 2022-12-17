@@ -6,7 +6,7 @@ pipeline{
                 sh """
                     pwd
                     cd /tmp
-                    touch test1.txt
+                    touch test123.txt
                     """
             }
         }
