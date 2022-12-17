@@ -1,0 +1,14 @@
+pipeline{
+    agent any
+    stages{
+        stage('Batch Job'){
+            steps{
+                sh """
+                    pwd
+                    cd /tmp
+                    touch test.txt
+                    """
+            }
+        }
+    }
+}
